@@ -5,7 +5,7 @@ import (
 
 	"github.com/ipfs/go-ipfs-cmds/examples/adder"
 
-	http "github.com/ipfs/go-ipfs-cmds/http"
+	http "github.com/straiforos/go-ipfs-cmds/http"
 )
 
 type env struct{}
