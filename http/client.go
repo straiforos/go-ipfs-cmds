@@ -83,6 +83,26 @@ func NewClient(address string, opts ...ClientOpt) cmds.Executor {
 	return c
 }
 
+func NewSecuredClient(address string, opts ...ClientOpt) cmds.Executor {
+	if !strings.HasPrefix(address, "https://") {
+		address = "https://" + address
+	}
+
+	httpsClient = http.DefaultClient
+
+	c := &client{
+		serverAddress: address,
+		httpClient:    httpsClient,
+		ua:            "go-ipfs-cmds/http",
+	}
+
+	for _, opt := range opts {
+		opt(c)
+	}
+
+	return c
+}
+
 func (c *client) Execute(req *cmds.Request, re cmds.ResponseEmitter, env cmds.Environment) error {
 	cmd := req.Command
 
