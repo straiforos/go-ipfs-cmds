@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ipfs/go-ipfs-cmds"
+	"github.com/straiforos/go-ipfs-cmds"
 
 	"github.com/ipfs/go-ipfs-files"
 )

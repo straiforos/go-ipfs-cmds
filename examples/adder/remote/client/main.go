@@ -4,11 +4,11 @@ import (
 	"context"
 	"os"
 
-	"github.com/ipfs/go-ipfs-cmds/examples/adder"
+	"github.com/straiforos/go-ipfs-cmds/examples/adder"
 
 	//cmds "github.com/ipfs/go-ipfs-cmds"
-	cmds "github.com/ipfs/go-ipfs-cmds"
-	cli "github.com/ipfs/go-ipfs-cmds/cli"
+	cmds "github.com/straiforos/go-ipfs-cmds"
+	cli "github.com/straiforos/go-ipfs-cmds/cli"
 	http "github.com/straiforos/go-ipfs-cmds/http"
 )
 

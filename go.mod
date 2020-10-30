@@ -4,6 +4,8 @@ go 1.14
 
 require (
 	github.com/Kubuxu/go-os-helper v0.0.1
+	github.com/ipfs/go-ipfs-cmdkit v0.0.1 // indirect
+	github.com/ipfs/go-ipfs-cmds v2.0.1+incompatible
 	github.com/ipfs/go-ipfs-files v0.0.8
 	github.com/ipfs/go-log v1.0.4
 	github.com/rs/cors v1.7.0

@@ -3,7 +3,7 @@ package main
 import (
 	nethttp "net/http"
 
-	"github.com/ipfs/go-ipfs-cmds/examples/adder"
+	"github.com/straiforos/go-ipfs-cmds/examples/adder"
 
 	http "github.com/straiforos/go-ipfs-cmds/http"
 )

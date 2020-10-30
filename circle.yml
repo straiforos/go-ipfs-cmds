@@ -1,6 +1,6 @@
 machine:
   environment:
-    IMPORT_PATH: "github.com/ipfs/go-ipfs-cmds"
+    IMPORT_PATH: "github.com/straiforos/go-ipfs-cmds"
     GOPATH: "$HOME/.go_workspace"
 
   services:
